@@ -1,11 +1,8 @@
 import mongoose from "mongoose";
-import "dotenv/config";
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(
-      `mongodb+srv://${process.env.DB_USER_NAME}:${process.env.DB_PASS}@learn-db.aovb2f5.mongodb.net/PostsDB`,
-    );
+    await mongoose.connect(process.env.DB_URI);
 
     console.log("DB connected ✅");
   } catch (error) {
