@@ -1,0 +1,22 @@
+{
+  "name": "basic-addposts-fetchfeed",
+  "version": "1.0.0",
+  "description": "this is a full stack project where user add the posts and look those uploaded posts",
+  "keywords": [
+    "fullstack",
+    "get",
+    "post"
+  ],
+  "author": "Moyin Pasha",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "mt": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.4",
+    "nodemon": "^1.14.10"
+  }
+}
